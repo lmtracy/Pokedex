@@ -6,16 +6,28 @@
 html, body {
   border: 0;
   padding: 0;
-  background-color: lightblue;
+  background-color: black;
   font-family: Pokemon;
-  cursor: url("http://cur.cursors-4u.net/games/gam-13/gam1282.cur");
 }
 
+p {
+  position: absolute;
+  top: 300px;
+}
+
+a {
+  position: absolute;
+  top: 500px;
+  text-decoration: none;
+}
 
 #PageOne {
-  align-items: center;
-  text-decoration: none;
-  min-height: 400px;
+  background-image: url("images/background1.png");
+  height: 800px;
+  background-position: left;
+  background-repeat: no repeat;
+  background-size: cover;
+  overflow: none;
 
 }
 

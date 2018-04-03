@@ -8,7 +8,7 @@ html, body {
   padding: 0;
   font-family: Pokemon;
   background-color: black;
-  background-image: url("images/background.jpg");
+  background-image: url("images/background.png");
   background-position: left;
   background-repeat: no repeat;
   background-size: cover;
@@ -21,24 +21,107 @@ a {
   cursor: url(http://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto !important;
 }
 
+/* Snorlax part */
+.bush {
+  position: absolute;
+  top: 510px;
+  left: 195px;
+  width: 90px;
+  z-index: 10;
+  animation-name: shake;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
 .snorlax143 {
  position: absolute;
- top: 500px;
- left: 200px;
- width: 200px;
+ top: 505px;
+ left: 165px;
+ width: 140px;
+ animation-duration: 1s;
+ animation-timing-function: ease-in-out;
+ animation-iteration-count: infinite;
+}
+
+.snorlax143:hover {
+  animation-name: bounce;
 }
 
 
+/* Togepi part */
+.bush1 {
+  position: absolute;
+  top: 970px;
+  left: 730px;
+  width: 90px;
+  z-index: 10;
+  animation-name: shake;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
 .togepi175 {
   position: absolute;
-  left: 100px;
-  top: 1050px;
+  top: 912px;
+  left: 680px;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.togepi175:hover {
+  animation-name: bounce;
+}
+
+
+/* Lugia part */
+.tree {
+  position: absolute;
+  top: 1310px;
+  left: 650px;
+  width: 170px;
+  z-index: 10;
+  animation-name: shake;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
 }
 
 
 .lugia249 {
   position: absolute;
-  top: 1850px;
-  left: 650px;
-  width: 150px;
+  top: 1360px;
+  left: 670px;
+  width: 120px;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.lugia249:hover {
+  animation-name: bounce;
+}
+
+
+/* shake effect */
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 80% {
+    transform: translateX(-1px);
+  }
+  40%, 60% {
+    transform: translateX(2px);
+  }
+}
+
+
+/* bounce effect on mon */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
 }
