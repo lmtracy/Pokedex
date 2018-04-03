@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Pokemon";
+  src: url("Pokemon-Classic.ttf");
+}
+
+html, body {
+  border: 0;
+  padding: 0;
+  background-color: lightblue;
+  font-family: Pokemon;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.info {
+  padding-left: 200px;
+  font-family: Pokemon;
+}
+
+img {
+  position: absolute;
+  width: 200px;
+}

@@ -11,7 +11,7 @@ html, body {
   cursor: url("http://cur.cursors-4u.net/games/gam-13/gam1282.cur");
 }
 
-/* First Section */
+
 #PageOne {
   align-items: center;
   text-decoration: none;
@@ -24,21 +24,4 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-/* Pokedex Section */
-#Forest {
-  background-image: url("images/background.jpg");
-  background-position: center;
-  background-repeat: no repeat;
-  background-size: cover;
-  /* overflow: hidden; */
-  /* top: 0;
-  width: 100%; */
-  height: 2000px;
-}
-
-Footer {
-  background-color: black;
-  height: 20px;
 }
