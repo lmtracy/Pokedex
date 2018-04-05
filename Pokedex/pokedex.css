@@ -6,22 +6,48 @@
 html, body {
   border: 0;
   padding: 0;
-  background-color: lightblue;
   font-family: Pokemon;
-
+  background: linear-gradient(
+    to bottom,
+    #d1f7c3,
+    #d1f7c3 50%,
+    #e7f7e1 50%,
+    #e7f7e1);
+    background-size: 100% 10px;
 }
+
+section {
+  width: 800px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f2f7e6;
+  padding: 10px;
+  border: 1px dotted;
+  border-radius: 15px 50px;
+  box-shadow: 6px 6px grey;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 ul {
   list-style-type: none;
-  font-size: 30px;
-}
-
-.info {
-  padding-left: 200px;
-  font-family: Pokemon;
+  font-size: 26px;
+  padding-left: 300px;
 }
 
 img {
   position: absolute;
-  width: 200px;
+  width: 250px;
 }

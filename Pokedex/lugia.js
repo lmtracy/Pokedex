@@ -27,7 +27,7 @@ let sapphire = new Sapphire()
 let monInfo = document.getElementById("main")
 
 //API for Snorlax
- axios.get(`https://pokeapi.co/api/v2/pokemon/143/`)
+ axios.get(`https://pokeapi.co/api/v2/pokemon/249/`)
       .then((response) => {
           let { name, stats, abilities } = response.data
 
@@ -35,7 +35,7 @@ let monInfo = document.getElementById("main")
           let hp = getStat(stats, "hp")
           let attack = getStat(stats, "attack")
           let defense = getStat(stats, "special-defense")
-          let pic = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png`;
+          let pic = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png`;
 
           let pokemon = new Pokemon(name, hp, attack, defense, abilities, pic)
 
