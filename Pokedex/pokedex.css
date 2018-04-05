@@ -28,10 +28,15 @@ section {
   box-shadow: 6px 6px grey;
 }
 
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.buttonArea {
+  margin-left: 50%;
+}
+
+.closeButton {
+  position: relative;
+  top: 10px;
+  font-family: Pokemon;
+  font-size: 15px;
 }
 
 .main {
@@ -39,7 +44,6 @@ button {
   margin-right: auto;
   margin-left: auto;
 }
-
 
 ul {
   list-style-type: none;
