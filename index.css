@@ -1,24 +1,32 @@
 @font-face {
   font-family: "Pokemon";
-  src: url("Pokemon-Classic.ttf");
+  src: url("PokemonXandY.ttf");
 }
 
 html, body {
-  border: 0;
-  padding: 0;
+  margin: -10px;
+  border: 0px;
+  padding-top: 0px;
   background-color: black;
   font-family: Pokemon;
 }
 
+.container {
+  text-align: center;
+}
+
 p {
-  position: absolute;
-  top: 300px;
+  position: relative;
+  top: 30px;
+  font-size: 40px;
 }
 
 a {
-  position: absolute;
-  top: 500px;
+  position: relative;
+  top: 100px;
   text-decoration: none;
+  font-size: 50px;
+  color: white;
 }
 
 #PageOne {
@@ -28,7 +36,6 @@ a {
   background-repeat: no repeat;
   background-size: cover;
   overflow: none;
-
 }
 
 .logo {

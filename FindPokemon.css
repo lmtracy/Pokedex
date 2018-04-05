@@ -1,9 +1,10 @@
 @font-face {
   font-family: "Pokemon";
-  src: url("Pokemon-Classic.ttf");
+  src: url("PokemonXandY.ttf");
 }
 
 html, body {
+  margin: -5px;
   border: 0;
   padding: 0;
   font-family: Pokemon;
@@ -12,9 +13,28 @@ html, body {
   background-position: left;
   background-repeat: no repeat;
   background-size: cover;
+  overflow: none;
   min-height: 2000px;
 }
 
+.container {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.textBoxImg {
+  width: 600px;
+  height: 80px;
+}
+
+.textBox {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  top: -10px;
+}
 
 /* Pokemon cursor from cursors-4u.com */
 a {
@@ -24,8 +44,8 @@ a {
 /* Snorlax part */
 .bush {
   position: absolute;
-  top: 510px;
-  left: 195px;
+  top: 495px;
+  left: 175px;
   width: 90px;
   z-index: 10;
   animation-name: shake;
@@ -35,8 +55,8 @@ a {
 
 .snorlax143 {
  position: absolute;
- top: 505px;
- left: 165px;
+ top: 500px;
+ left: 150px;
  width: 140px;
  animation-duration: 1s;
  animation-timing-function: ease-in-out;
@@ -51,8 +71,8 @@ a {
 /* Togepi part */
 .bush1 {
   position: absolute;
-  top: 970px;
-  left: 730px;
+  top: 955px;
+  left: 715px;
   width: 90px;
   z-index: 10;
   animation-name: shake;
@@ -62,8 +82,8 @@ a {
 
 .togepi175 {
   position: absolute;
-  top: 912px;
-  left: 680px;
+  top: 900px;
+  left: 665px;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -77,8 +97,8 @@ a {
 /* Lugia part */
 .tree {
   position: absolute;
-  top: 1310px;
-  left: 650px;
+  top: 1290px;
+  left: 631px;
   width: 170px;
   z-index: 10;
   animation-name: shake;

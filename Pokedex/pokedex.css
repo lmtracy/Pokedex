@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Pokemon";
-  src: url("Pokemon-Classic.ttf");
+  src: url("PokemonXandY.ttf");
 }
 
 html, body {
@@ -13,6 +13,7 @@ html, body {
 
 ul {
   list-style-type: none;
+  font-size: 30px;
 }
 
 .info {
