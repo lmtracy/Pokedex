@@ -1,4 +1,6 @@
-
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	background: url("images/background1.png") no-repeat fixed;
+}
 
 
 @font-face {
