@@ -1,3 +1,5 @@
+
+//code to hide bushes/tree and reveal Pokemon
 let hideEffect = document.getElementsByClassName('hideEffect')
 
 for (let i = 0; i < hideEffect.length; i++) {
@@ -5,9 +7,3 @@ for (let i = 0; i < hideEffect.length; i++) {
     e.target.style.visibility = 'hidden';
   }
 }
-
-
-//
-// document.getElementById("hideDiv").onclick = function(e) {
-//   e.target.style.visibility = 'hidden';
-// }

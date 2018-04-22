@@ -1,4 +1,4 @@
-//Maria was kind enough to assist me with this!
+//Shoutout to Mariia and MD for assitance on this
 
 //Container class
 class Sapphire {
@@ -9,6 +9,15 @@ class Sapphire {
     add(pokemon) {
         this.pokemons.push(pokemon)
     }
+
+    //get method for trainer class
+    get(name) {
+    for (let i = 0; i < this.pokemons.length; i++) {
+        if (name === this.pokemons[i].name) {
+            return this.pokemons[i]
+        }
+    }
+  }
 }
 
 //Individual class
@@ -26,7 +35,7 @@ class Pokemon {
 let sapphire = new Sapphire()
 let monInfo = document.getElementById("main")
 
-//API for Snorlax
+//API for lugia
  axios.get(`https://pokeapi.co/api/v2/pokemon/249/`)
       .then((response) => {
           let { name, stats, abilities } = response.data
@@ -42,7 +51,6 @@ let monInfo = document.getElementById("main")
           sapphire.add(pokemon)
 
           let addPoke = document.createElement("div")
-          addPoke.className = `143`
           monInfo.appendChild(addPoke)
 
 //Sprite callback
@@ -73,11 +81,7 @@ let monInfo = document.getElementById("main")
               }
           }
       }
-
-          console.log(pokemon)
-        }).catch((error) => {
-          console.log(error)
-        })
+    })
 
 //functions to return API data
 function getStat(stats, name) {

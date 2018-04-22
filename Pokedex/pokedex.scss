@@ -16,19 +16,8 @@ html, body {
     background-size: 100% 10px;
 }
 
-#main {
-  width: 80%;
-  height: 40%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #f2f7e6;
-  padding: 10px;
-  border: 1px dotted;
-  border-radius: 15px 50px;
-  box-shadow: 6px 6px grey;
-}
-
 .buttonArea {
+  margin-left: 50%;
   text-align: center;
 }
 
@@ -39,25 +28,29 @@ html, body {
   font-size: 15px;
 }
 
-.info {
-  /* top: 50px; */
+#main {
+  width: 800px;
+  height: 300px;
   margin-right: auto;
   margin-left: auto;
-}
-
-h2 {
-  font-size: 20px;
+  background-color: #f2f7e6;
+  padding: 10px;
+  border: 1px dotted;
+  border-radius: 15px 50px;
+  box-shadow: 6px 6px grey;
 }
 
 ul {
-  /* position: absolute;
-  left: 100px; */
+  position: absolute;
+  float: right;
   list-style-type: none;
-  font-size: 18px;
+  font-size: 26px;
+  padding-left: 300px;
 }
-/*
+
 img {
   position: absolute;
-  width: 200px;
-  left: 100px;
-} */
+  float: left;
+  width: 250px;
+  /* padding-left: 300px; */
+}
